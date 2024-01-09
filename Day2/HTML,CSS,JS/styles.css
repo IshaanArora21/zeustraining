@@ -1,0 +1,49 @@
+.title{
+    text-align: center;
+    letter-spacing: 15px;
+    font-style: italic;
+    font-family: 'Aerial Regular',sans-serif;
+    background-color: brown;
+    color: rgb(255, 255, 186);;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.title-container{
+    background-color: red;
+    height: 50px;
+}
+.header{
+    background-color: rgb(10, 173, 10);
+    color: #fff;
+    font-family: 'Aerial Regular',sans-serif;
+    padding-left: 14px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+body{
+    background-color: rgb(255, 255, 186);
+}
+.section{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+}
+.elements{
+    color: maroon;
+    font-style: italic;
+    font-weight:200;
+}
+.img{
+    border: 2px dashed rgba(179, 179, 179, 0.441);
+}
+.table{
+    background-color: rgb(192, 190, 190);
+}
+.h4text{
+    color:rgb(192, 190, 190);
+    font-family: 'Aerial Bold',sans-serif;
+}.note{
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
