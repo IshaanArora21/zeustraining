@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo"><img  src="assets/icons/logo used in header.svg" alt="qunatum logo" /></div>
+  </div>
+  <div class="container">
+    <div class="card">
+      <div class="heading">
+        <img src="assets/icons/back.svg" alt="background-img" />
+        <h2 class="form-title">Log in with Quantum</h2>
+      </div>
+
+      <form class="card-form">
+        <div class="radio-input">
+          <div class="radio-input-btn">
+            <span><img src="assets/icons/radio-button-on.svg" alt="radion-button-on"></span>
+            <label class="radio-input-label" for="schoolType">District</label>
+          </div>
+
+          <div class="radio-input-btn">
+            <span><img src="assets/icons/radio-button-off.svg" alt="radio-button-off"></span>
+            <label class="radio-input-label" for="schoolType">Independent School</label>
+          </div>
+        </div>
+
+        <label for="state" class="label-dropdown">State</label>
+        <select value="state" name="state">
+          <option value="1">Alabama</option>
+          <option value="2">Ohio</option>
+          <option value="3">New Jersey</option>
+        </select>
+
+        <label for="District" class="label-dropdown">District</label>
+        <select value="District" name="District">
+          <option value="1">Alabama</option>
+          <option value="2">Ohio</option>
+          <option value="3">New Jersey</option>
+        </select>
+
+        <div class="input-box">
+          <input type="text" name="username" id="username" placeholder="Username/Email ID*" />
+          <a href="#" class="forget-link">FORGOT USERNAME?</a>
+        </div>
+
+        <div class="input-box">
+          <div class="password-input">
+            <input type="password" name="password" id="password" placeholder="Password*" />
+            <img src="assets/icons/preview.svg" />
+          </div>
+          <a href="#" class="forget-link">FORGOT PASSWORD?</a>
+        </div>
+
+        <div class="rememberme-div">
+          <span><img src="assets/icons/checkbox-checked.svg" alt=""></span>
+          <label for="rememberme" class="rememberme">Remember me</label>
+        </div>
+
+        <input type="submit" value="LOG IN" class="submit-button" />
+      </form>
+    </div>
+    <div class="contact">
+      <a class="linker" link="#">About</a>
+      <a class="linker" link="#">Contact Us</a>
+    </div>
+  </div>
+  <div class="footer">
+    <img src="assets/icons/logo used in footer.svg" />
+    <p class="copyright">Copyright &copy; 2020-2021</p>
+    <p class="company">Zeus Sustems Ltd</p>
+    <p>All rights reserved</p>
+  </div>
+
+</body>
+
+</html>
