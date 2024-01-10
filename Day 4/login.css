@@ -157,4 +157,8 @@ body {
 .footer .company{
     font-weight: bold;
 }
- 
+ @media screen and (max-width: 1000px) {
+  .container{
+      margin: 50px 140px auto 140px;
+  }
+}
