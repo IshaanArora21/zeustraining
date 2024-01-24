@@ -1,0 +1,74 @@
+body {
+    font-family: Cambria, serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .todo-container {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .todo-header {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .todo-instruction{
+    font-weight: 300;
+  }
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #120051;
+    background-color: aliceblue;
+    color: #096a6a;
+  }
+
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .todo-item input[type="checkbox"]:checked {
+    background-color: #4caf50; 
+    border-color: #4caf50; 
+  }
+  .add-todo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+
+  .add-todo input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: black;
+  }
+
+  .add-todo button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .add-todo button:hover{
+    border: 2px solid rgb(9, 228, 60);
+  }
